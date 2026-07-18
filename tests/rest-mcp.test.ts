@@ -46,7 +46,10 @@ describe("plansman REST", () => {
       const workspaces = (await fetch(`${baseUrl}/api/workspaces`).then((response) => response.json())) as {
         workspaces: Array<{ slug: string; name: string }>;
       };
-      expect(workspaces.workspaces.map((workspace) => [workspace.slug, workspace.name])).toEqual([
+      const listedWorkspaces = workspaces.workspaces
+        .map((workspace) => [workspace.slug, workspace.name])
+        .sort(([leftSlug], [rightSlug]) => leftSlug.localeCompare(rightSlug));
+      expect(listedWorkspaces).toEqual([
         ["alpha", "Alpha Workspace"],
         ["beta", "Beta Workspace"]
       ]);
