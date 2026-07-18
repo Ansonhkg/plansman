@@ -1,0 +1,37 @@
+{
+  "name": "plansman",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "plansman": "./plansman"
+  },
+  "scripts": {
+    "plansman": "bun ./plansman",
+    "mcp": "bun surfaces/tools/mcp/index.ts",
+    "dev:api": "portless run --name api.plansman bun run dev:api:direct",
+    "dev:api:direct": "bun surfaces/rest/server.ts",
+    "dev:web": "portless run --name plansman bun run dev:web:direct",
+    "dev:web:direct": "bun run --cwd apps/web dev",
+    "dev": "bun run dev:api & bun run dev:web & wait",
+    "dev:direct": "bun run dev:api:direct & bun run dev:web:direct & wait",
+    "build:cli": "bun build ./surfaces/cli/index.ts --compile --outfile dist/plansman",
+    "build:web": "bun run --cwd apps/web build",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test tests/contracts-core.test.ts tests/cli.test.ts tests/rest-mcp.test.ts tests/resolution-guard.test.ts tests/restatement-guard.test.ts tests/backlog.test.ts tests/ideas.test.ts",
+    "check:web": "bun run --cwd apps/web typecheck",
+    "test:browser": "bun run --cwd apps/web test",
+    "check": "bun run typecheck && bun run test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "effect": "^3.16.12",
+    "yaml": "^2.9.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.18",
+    "portless": "^0.14.0",
+    "typescript": "^5.8.3"
+  }
+}

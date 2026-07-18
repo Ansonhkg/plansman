@@ -1,0 +1,21 @@
+{
+  "name": "Plansman",
+  "shortName": "Plansman",
+  "description": "Plansman — a fast, keyboard-first plan workspace.",
+  "icons": {
+    "isotipo": "BrandIsotipo",
+    "logotipo": "BrandLogotipo"
+  },
+  "assets": {
+    "isotipo": {
+      "src": "https://files.instantdb.com/fd13e78a-1a89-44ed-b1f3-3500218ed3f0/7/6990a92b-55c1-44b7-9afe-d255b3714938?response-cache-control=public%2C%20max-age%3D86400%2C%20immutable&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9maWxlcy5pbnN0YW50ZGIuY29tL2ZkMTNlNzhhLTFhODktNDRlZC1iMWYzLTM1MDAyMThlZDNmMC83LzY5OTBhOTJiLTU1YzEtNDRiNy05YWZlLWQyNTViMzcxNDkzOD9yZXNwb25zZS1jYWNoZS1jb250cm9sPXB1YmxpYyUyQyUyMG1heC1hZ2UlM0Q4NjQwMCUyQyUyMGltbXV0YWJsZSIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MzgxNDQwMH19fV19&Signature=lwAO9uBebMZPfPlJ8XkcAD3qCfmjYOiZJMetBF0BVs~qsr5ECTx7~BKBOj1N9ZbRVFPFYzdKjhZwKCshLEDSYlPQzooMg31WlYuquJKKXqvH0hifaTOPNdbOoq4RdVa9cL7fbYyyK9Csea22TerOU2uM3fsX8k6-ps86QkmKiqJggwH2LriACChkpbhpMyIRbBtpUxjzFsC-ln1MFWKkfu-weO8BKVhRBQtUFrsFZub-rMgX6ahLHkmA6rycDD5jhDaWGs3yofqKhhsFk1oIq~LVqc8H5BSobK4ZHa0mBeSiaqbksIJMJMtcQ9-oVFWH6PE7ywegOxTnGnlr3hJugw&Key-Pair-Id=K2D8SOWYIPDBRT",
+      "alt": "Plansman isotipo",
+      "width": 24,
+      "height": 24
+    }
+  },
+  "usage": {
+    "isotipo": "Use the compact symbol-only isotype in constrained contexts such as login screens, signup screens, mobile headers, collapsed sidebars, and app icons. On login and signup screens, render it at least 44x44.",
+    "logotipo": "Use the complete wordmark/logotype in expanded sidebars, full headers, and brand bars. Keep header wordmarks compact by default."
+  }
+}

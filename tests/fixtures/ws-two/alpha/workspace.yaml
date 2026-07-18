@@ -1,0 +1,5 @@
+# alpha comment must survive settings edits
+name: Alpha Workspace
+sections:
+  drafts: false
+  improvements: true

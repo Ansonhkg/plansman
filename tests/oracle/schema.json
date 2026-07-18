@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "plan front matter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["plan_id", "title", "completion", "status", "diagram_updated"],
+  "properties": {
+    "plan_id": {
+      "type": "number"
+    },
+    "sub_plan": {
+      "type": "string",
+      "pattern": "^[a-z]$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "completion": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "status": {
+      "type": "string",
+      "enum": ["done", "running", "not started"]
+    },
+    "diagram_updated": {
+      "type": "boolean"
+    },
+    "follow_up": {
+      "type": "number",
+      "minimum": 1
+    },
+    "implementation_branch": {
+      "type": "string"
+    },
+    "deferred_backlog": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

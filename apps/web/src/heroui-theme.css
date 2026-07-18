@@ -1,0 +1,94 @@
+/*
+ * Managed by HeroUI Pro chat theme controls.
+ * The workbench updates this stable file without rewriting generated app code.
+ */
+
+:root {
+  --heroui-active-theme: "dark";
+
+  --accent: #5e6ad2;
+  --accent-foreground: oklch(0.99 0 0);
+  --focus: var(--accent);
+
+  --radius: 0.375rem;
+  --field-radius: 0.375rem;
+}
+
+.light,
+[data-theme="light"] {
+  color-scheme: light;
+  --background: oklch(0.985 0.001 264);
+  --foreground: oklch(0.22 0.01 275);
+  --surface: oklch(1 0 0);
+  --surface-secondary: oklch(0.965 0.002 264);
+  --surface-tertiary: oklch(0.945 0.003 264);
+  --overlay: oklch(1 0 0);
+  --muted: oklch(0.55 0.012 275);
+  --border: oklch(0.915 0.004 275);
+  --separator: oklch(0.93 0.004 275);
+  --default: oklch(0.955 0.002 275);
+}
+
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: oklch(0.163 0.007 271);
+  --foreground: oklch(0.965 0.003 271);
+  --surface: oklch(0.196 0.008 271);
+  --surface-foreground: var(--foreground);
+  --surface-secondary: oklch(0.226 0.009 271);
+  --surface-secondary-foreground: var(--foreground);
+  --surface-tertiary: oklch(0.258 0.009 271);
+  --surface-tertiary-foreground: var(--foreground);
+  --overlay: oklch(0.212 0.009 271);
+  --overlay-foreground: var(--foreground);
+  --muted: oklch(0.655 0.012 271);
+  --scrollbar: oklch(0.36 0.01 271);
+  --default: oklch(0.262 0.009 271);
+  --default-foreground: var(--foreground);
+  --field-background: oklch(0.205 0.008 271);
+  --field-foreground: var(--foreground);
+  --field-placeholder: var(--muted);
+  --field-border: oklch(0.288 0.009 271);
+  --segment: oklch(0.262 0.009 271);
+  --border: oklch(0.288 0.009 271);
+  --separator: oklch(0.242 0.008 271);
+}
+
+/* @heroui-chat-theme-state
+{
+  "colorValueDefinitions": null,
+  "customFonts": null,
+  "designTheme": "base",
+  "id": "a488e6ad-98e5-4ac4-99e4-6ae325544da6",
+  "name": "Plansman (Linear dark)",
+  "source": "chat",
+  "variableOverrides": null,
+  "variables": {
+    "accentHex": "#5e6ad2",
+    "base": 0,
+    "baseTone": "neutral",
+    "bodyFont": "inter",
+    "borderScale": 1,
+    "chroma": 0.163,
+    "dangerHex": "#FF383C",
+    "designTheme": "base",
+    "fieldBorderScale": 0,
+    "fontSizeScale": 0.95,
+    "formRadius": "small",
+    "headingFont": "inter",
+    "hue": 277,
+    "iconSet": "gravity",
+    "letterSpacing": 0,
+    "lightness": 0.5674,
+    "lineHeightScale": 1,
+    "menuStyle": "default",
+    "radius": "small",
+    "ringOffsetScale": 2,
+    "spacingScale": 1,
+    "successHex": "#17C964",
+    "vibrantPalette": false,
+    "warningHex": "#F5A524"
+  }
+}
+@heroui-chat-theme-state */

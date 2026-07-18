@@ -1,0 +1,11 @@
+{
+  "installCommand": "bun install --frozen-lockfile",
+  "buildCommand": "VITE_PLANSMAN_DEMO=true bun run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

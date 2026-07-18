@@ -1,0 +1,13 @@
+:root {
+  --brand-color-primary: var(--primary);
+  --brand-color-secondary: var(--secondary);
+  --brand-color-accent: var(--accent);
+  --brand-color-background: var(--background);
+  --brand-color-text-primary: var(--foreground);
+  --brand-color-text-secondary: var(--muted);
+  --brand-font-primary: inherit;
+  --brand-font-heading: inherit;
+  --brand-font-code: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --brand-radius: 8px;
+  --brand-spacing-base: 8px;
+}

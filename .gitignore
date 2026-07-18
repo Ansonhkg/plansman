@@ -1,0 +1,9 @@
+node_modules/
+/web/
+.bun-cache/
+.tmp/
+dist/
+apps/web/dist/
+apps/web/test-results/
+apps/web/playwright-report/
+.DS_Store
