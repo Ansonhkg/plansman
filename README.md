@@ -2,7 +2,7 @@
 
 Plansman is a markdown-first planning system for humans and coding agents. It keeps plans as files, builds a forkable DAG from follow-up relationships, exposes the same workspace through CLI, REST, MCP, and web views, and records resolutions when planning threads conflict.
 
-![Plansman product overview](web/assets/plansman-social-card.png)
+![Plansman product overview](assets/screenshot_1.jpg)
 
 [Watch the demo video](https://x.com/ansonox/status/2074931553508216957/video/1)
 
@@ -137,19 +137,15 @@ plansman resolutions decide 1 \
 
 ### Web DAG
 
-![Plansman DAG view with follow-up branch filters and a persistent DAG pane](web/assets/screenshot_1.jpg)
+![Plansman DAG view with follow-up branch filters and a persistent DAG pane](assets/screenshot_1.jpg)
 
 ### Board With DAG Context
 
-![Plansman board view with synchronized DAG position panel](web/assets/screenshot_2.jpg)
+![Plansman board view with synchronized DAG position panel](assets/screenshot_2.jpg)
 
 ### Plan List With DAG Context
 
-![Plansman plan list with a persistent DAG position panel](web/assets/screenshot_3.jpg)
-
-### CLI DAG
-
-![Plansman CLI rendering a colored DAG diagram in a terminal](web/assets/cli-dag.png)
+![Plansman plan list with a persistent DAG position panel](assets/screenshot_3.jpg)
 
 ## How It Works
 
